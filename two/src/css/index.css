@@ -1,0 +1,322 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body, img {
+  width: 100%;
+  height: 100%; }
+
+ul, li {
+  list-style: none; }
+
+.swiper-container {
+  margin: 0 auto;
+  max-width: 640px;
+  width: 100%;
+  height: 100%; }
+
+.swiper-slide:after {
+  display: block;
+  content: '';
+  width: 24px;
+  position: absolute;
+  height: 18px;
+  right: 0px;
+  left: 0px;
+  margin: 0 auto;
+  bottom: .5rem;
+  background: url("../images/web-swipe-tip.png");
+  -webkit-animation: showUpDown 1s linear infinite;
+  -moz-animation: showUpDown 1s linear infinite;
+  -ms-animation: showUpDown 1s linear infinite;
+  -o-animation: showUpDown 1s linear infinite; }
+
+@keyframes showUpDown {
+  from {
+    bottom: 20px;
+    opacity: 1; }
+  to {
+    bottom: 35px;
+    opacity: 0; } }
+li {
+  position: absolute; }
+
+.box-1 li:nth-of-type(1) {
+  width: 104.375%;
+  height: 100.1984126984127%;
+  left: -2.1875%;
+  top: 0%; }
+
+.box-1 li:nth-of-type(2) {
+  width: 68.125%;
+  height: 19.444444444444446%;
+  left: 15.625%;
+  top: 7.738095238095238%; }
+
+.box-1 li:nth-of-type(3) {
+  width: 25.624999999999996%;
+  height: 9.126984126984127%;
+  left: 39.375%;
+  top: 84.12698412698413%; }
+
+.box-2 li:nth-of-type(1) {
+  width: 87.5%;
+  height: 66.86507936507937%;
+  left: 3.125%;
+  top: 2.976190476190476%; }
+
+.box-2 li:nth-of-type(2) {
+  width: 24.6875%;
+  height: 9.325396825396826%;
+  left: 69.0625%;
+  top: 12.3015873015873%; }
+
+.box-2 li:nth-of-type(3) {
+  width: 81.5625%;
+  height: auto;
+  left: 10.625%;
+  top: 75.09920634920636%; }
+  .box-2 li:nth-of-type(3) p {
+    font-size: 1.2rem;
+    font-family: "Arial Narrow";
+    line-height: 1.2rem; }
+
+.box-3 li:nth-of-type(1) {
+  width: 100%;
+  height: 100%;
+  left: 0%;
+  top: 0.0992063492063492%; }
+
+.box-3 li:nth-of-type(2) {
+  width: 88.75%;
+  height: auto;
+  left: 8.125%;
+  top: 71.92460317460318%; }
+  .box-3 li:nth-of-type(2) p {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    color: #fff; }
+
+.box-3 li:nth-of-type(3) {
+  width: 100%;
+  height: 95.23809523809523%;
+  left: 0%;
+  top: -24.702380952380953%; }
+
+.box-3 li:nth-of-type(4) {
+  width: 88.125%;
+  height: 11.904761904761903%;
+  left: 8.4375%;
+  top: 85.11904761904762%; }
+
+.box-3 li:nth-of-type(5) {
+  width: 13.4375%;
+  height: 29.166666666666668%;
+  left: 77.96875%;
+  top: 71.32936507936508%; }
+
+.box-3 li:nth-of-type(6) {
+  width: 28.749999999999996%;
+  height: 18.253968253968253%;
+  left: 68.75%;
+  top: 80.2579365079365%;
+  animation: cir 10s linear infinite; }
+
+@keyframes cir {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+.box-3 li:nth-of-type(7) {
+  width: 29.375%;
+  height: 11.11111111111111%;
+  left: 65.625%;
+  top: 27.281746031746028%; }
+
+.box-4 li:nth-of-type(1) {
+  width: 105.31250000000001%;
+  height: 100.79365079365078%;
+  left: -4.0625%;
+  top: -0.8928571428571428%; }
+
+.box-4 li:nth-of-type(2) {
+  width: 15.625%;
+  height: 8.73015873015873%;
+  left: 39.0625%;
+  top: 42.857142857142854%; }
+  .box-4 li:nth-of-type(2) img {
+    transform: rotate(60deg); }
+
+.box-4 li:nth-of-type(3) {
+  width: 21.25%;
+  height: 13.492063492063492%;
+  left: 55.00000000000001%;
+  top: 73.21428571428571%; }
+  .box-4 li:nth-of-type(3) img {
+    transform: rotate(99deg); }
+
+.box-4 li:nth-of-type(4) {
+  width: 68.75%;
+  height: 43.65079365079365%;
+  left: 14.0625%;
+  top: 35.81349206349206%; }
+
+.box-4 li:nth-of-type(5) {
+  width: 31.25%;
+  height: 11.904761904761903%;
+  left: 48.4375%;
+  top: 56.94444444444444%; }
+
+.box-4 li:nth-of-type(6) {
+  width: 50%;
+  height: auto;
+  left: 30%;
+  top: 70.13888888888889%; }
+  .box-4 li:nth-of-type(6) p {
+    font-size: 1.6rem;
+    font-family: "榛戜綋";
+    text-align: right;
+    color: #000; }
+
+.box-5 li:nth-of-type(1) {
+  width: 100%;
+  height: 100%;
+  left: 0%;
+  top: 0%; }
+
+.box-5 li:nth-of-type(2) {
+  width: 100%;
+  height: 69.04761904761905%;
+  left: 0%;
+  top: -4.9603174603174605%; }
+
+.box-5 li:nth-of-type(3) {
+  width: 41.875%;
+  height: auto;
+  left: 5.3125%;
+  top: 67.36111111111111%; }
+  .box-5 li:nth-of-type(3) p {
+    font-size: 1rem;
+    color: #000;
+    font-family: "榛戜綋"; }
+
+.box-5 li:nth-of-type(4) {
+  width: 28.125%;
+  height: 10.714285714285714%;
+  left: 65.3125%;
+  top: 4.761904761904762%; }
+
+.box-5 li:nth-of-type(5) {
+  width: 62.18749999999999%;
+  height: 23.214285714285715%;
+  left: 37.8125%;
+  top: 71.42857142857143%; }
+
+.box-5 li:nth-of-type(6) {
+  width: 100%;
+  height: 100%;
+  left: 0%;
+  top: 0%; }
+
+.box-6 li:nth-of-type(1) {
+  width: 100%;
+  height: 100%;
+  left: 0%;
+  top: 0%; }
+
+.box-6 li:nth-of-type(2) {
+  width: 100%;
+  height: 100%;
+  left: 0%;
+  top: 0%; }
+
+.box-6 li:nth-of-type(3) {
+  width: 92.8125%;
+  height: auto;
+  left: 2.5%;
+  top: 50.595238095238095%; }
+  .box-6 li:nth-of-type(3) p {
+    font-size: 1rem;
+    color: #00b3ee;
+    font-weight: 500;
+    line-height: 2rem;
+    text-align: center;
+    font-family: "榛戜綋"; }
+
+.box-6 li:nth-of-type(4) {
+  width: 50.31250000000001%;
+  height: auto;
+  left: 24.0625%;
+  top: 68.84920634920636%;
+  text-align: center; }
+
+.box-6 li:nth-of-type(5) {
+  width: 25.3125%;
+  height: 17.46031746031746%;
+  left: 34.6875%;
+  top: 79.16666666666666%; }
+
+.box-6 li:nth-of-type(6) {
+  width: 56.25%;
+  height: 43.452380952380956%;
+  left: 5.625%;
+  top: 2.7777777777777777%; }
+
+.box-6 li:nth-of-type(7) {
+  width: 50%;
+  height: 31.746031746031743%;
+  left: 50%;
+  top: 17.46031746031746%; }
+
+.box-6 li:nth-of-type(8) {
+  width: 92.8125%;
+  height: auto;
+  left: 2.5%;
+  top: 50.595238095238095%; }
+  .box-6 li:nth-of-type(8) p {
+    font-size: 1rem;
+    color: #000;
+    font-weight: 500;
+    line-height: 2rem;
+    text-align: center;
+    font-family: "榛戜綋"; }
+
+.box-7 li:nth-of-type(1) {
+  width: 33.125%;
+  height: 11.706349206349206%;
+  left: 63.4375%;
+  top: 43.05555555555556%; }
+
+.box-7 li:nth-of-type(2) {
+  width: 56.25%;
+  height: 32.73809523809524%;
+  left: 0%;
+  top: 3.1746031746031744%; }
+
+.box-7 li:nth-of-type(3) {
+  width: 56.25%;
+  height: 23.809523809523807%;
+  left: 0%;
+  top: 39.08730158730159%; }
+
+.box-7 li:nth-of-type(4) {
+  width: 56.25%;
+  height: 26.190476190476193%;
+  left: 0.3125%;
+  top: 66.26984126984127%; }
+
+.box-7 li:nth-of-type(5) {
+  width: 15.937499999999998%;
+  height: 10.119047619047619%;
+  left: 70.9375%;
+  top: 57.341269841269835%;
+  animation: cir 6s linear infinite; }
+
+.box-7 li:nth-of-type(6) {
+  width: 29.6875%;
+  height: 9.523809523809524%;
+  left: 64.0625%;
+  top: 31.746031746031743%; }
+
+/*# sourceMappingURL=index.css.map */
